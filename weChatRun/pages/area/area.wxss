@@ -1,0 +1,25 @@
+/* pages/area/area.wxss */
+.bigTitle{
+  margin-top: 5%;
+margin-left: 32%;
+}
+/* .todaystep{
+  margin-top: 20px;
+  margin-left: 10px;
+}.kilometre{
+  margin-top: 5px;
+  margin-left: 10px;
+}.todayenergy{
+  margin-top: 5px;
+  margin-left: 10px;
+} */
+.title{
+  margin-top: 20px;
+  font-size: 40rpx;
+  margin-left:12%;
+}
+.canvas {
+margin-top: 5%;
+    width: 100%;
+    height: 200px;
+}

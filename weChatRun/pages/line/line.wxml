@@ -1,0 +1,8 @@
+<!--pages/line/line.wxml-->
+<view class="bigTitle" >上周步数对比</view>
+<view class="container">
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <view style="margin-top:30px;text-align:center">与上周步数对比</view>
+    <button type="primary" bindtap="updateData">7天内数据</button>
+    
+</view>

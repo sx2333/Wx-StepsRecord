@@ -1,0 +1,20 @@
+{
+  "pages":[
+     "pages/index",
+     "pages/logs/logs",
+     "pages/run/run",
+     "pages/energy/energy",
+     "pages/weather/weather",
+     "pages/step/step",
+     "pages/line/line",
+     "pages/area/area"
+     
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EEE9E9",
+    "navigationBarTitleText": "运动生活",
+    "navigationBarTextStyle":"black"
+  }
+}

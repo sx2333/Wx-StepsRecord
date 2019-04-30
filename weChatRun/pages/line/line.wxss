@@ -1,0 +1,9 @@
+/* pages/line/line.wxss */
+.bigTitle{
+  margin-top: 5%;
+margin-left: 25%;
+}.canvas {
+margin-top: 5%;
+    width: 100%;
+    height: 200px;
+}

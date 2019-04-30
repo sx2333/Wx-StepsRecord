@@ -1,0 +1,14 @@
+
+.weather{
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 40rpx;
+    height: 100%;
+}
+
+page {
+    background-color: #27AE60;
+}

@@ -1,0 +1,13 @@
+<!--style的优先级比class高会覆盖和class相同属性-->
+<view class="bigTitle" style="margin-top:10%">能量消耗计算</view>
+
+<view class="inputView" style="margin-top:22%">
+<input class="input" type="number" placeholder="请输入运动距离(km)" placeholder-style="color: #fff"bindinput="listenerKmInput"/>
+</view>
+<view class="inputView">
+<input class="input" type="number" max="999" placeholder="请输入体重（kg）" placeholder-style="color:#fff" bindinput="listenerKgInput"/>
+</view>
+
+<button style="margin-left: 200rpx; margin-right:200rpx; margin-top: 50rpx; border-radius: 10rpx;background-color:#FFB90F" type="primary" bindtap="listenerCount">计算能量消耗</button>
+
+<view class="energy" >{{name}}kcal(千卡)</view>

@@ -1,0 +1,11 @@
+<view class="bigTitle" >步数统计</view>
+
+<view class="container">
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler" bindtouchmove="moveHandler" bindtouchend="touchEndHandler"></canvas>
+    <view style="margin-top:30px;text-align:center">七日步数统计</view>
+    <button type="primary"  bindtap="start">上周步数对比</button>
+</view>
+<!-- <button type="primary" bindtap="start">上周步数对比</button> -->
+
+
+
